@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.body {
+    margin: 30px auto;
+    width: 350px;
+}
+
+.style {
+    width: 350px;
+    height: auto;
+    background: white;
+    padding: 10px;
+    margin: 0px auto;
+    border: none;
+    border-radius: 20px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 5px;
+    font-size: 22px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: right;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+input[type=text]:focus {
+    border: 0px solid black;
+    border-radius: 20px;
+}
+
+button {
+    width: 55px;
+    height: 50px;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 2px;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    background: rgba(0, 0, 0, .3);
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+    background: #FFF;
+}
+
+#DEL {
+    width: 100%;
+    margin-left: 1px;
+    border-radius: 20px;
+    border: none;
+}
+
+input[type=button]:hover {
+    background-color: black;
+    color: #FFF;
+    transition: .6s;
+    cursor: pointer;
+}
